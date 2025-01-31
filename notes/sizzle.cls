@@ -335,7 +335,7 @@
 \DeclareMathOperator{\csimeq}{\overset{c}{\simeq}}
 
 % Crypto
-\newcommand{\sampledfrom}{\overset{\$}{\leftarrow}}
+\newcommand{\sampledfrom}{\leftarrow}
 \DeclareMathOperator{\Gen}{\mathsf{Gen}}
 \DeclareMathOperator{\Enc}{\mathsf{Enc}}
 \DeclareMathOperator{\Dec}{\mathsf{Dec}}
