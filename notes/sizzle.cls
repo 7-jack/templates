@@ -324,13 +324,24 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Math
-\newcommand{\CC}{\mathbb C}
-\newcommand{\GG}{\mathbb G}
-\newcommand{\FF}{\mathbb F}
-\newcommand{\NN}{\mathbb N}
-\newcommand{\QQ}{\mathbb Q}
-\newcommand{\RR}{\mathbb R}
-\newcommand{\ZZ}{\mathbb Z}
+\newcommand{\C}{\mathbb C}
+\newcommand{\G}{\mathbb G}
+\newcommand{\F}{\mathbb F}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Z}{\mathbb Z}
+
+\newcommand{\CC}{\mathcal C}
+\newcommand{\GG}{\mathcal G}
+\newcommand{\FF}{\mathcal F}
+\newcommand{\NN}{\mathcal N}
+\newcommand{\QQ}{\mathcal Q}
+\newcommand{\RR}{\mathcal R}
+\newcommand{\ZZ}{\mathcal Z}
+\newcommand{\MM}{\mathcal M}
+\newcommand{\KK}{\mathcal K}
+\renewcommand{\AA}{\mathcal A} % No idea where \AA is already defined...
 
 \DeclareMathOperator{\csimeq}{\overset{c}{\simeq}}
 
@@ -339,6 +350,7 @@
 \DeclareMathOperator{\Gen}{\mathsf{Gen}}
 \DeclareMathOperator{\Enc}{\mathsf{Enc}}
 \DeclareMathOperator{\Dec}{\mathsf{Dec}}
+\DeclareMathOperator{\EncScheme}{(\Gen, \Enc, \Dec)}
 \DeclareMathOperator{\Sign}{\mathsf{Sign}}
 \DeclareMathOperator{\Mac}{\mathsf{Mac}}
 \DeclareMathOperator{\Verify}{\mathsf{Verify}}
