@@ -343,6 +343,9 @@
 \newcommand{\KK}{\mathcal K}
 \renewcommand{\AA}{\mathcal A} % No idea where \AA is already defined...
 
+\newcommand{\st}{\mid}
+\newcommand*{\xor}{\oplus}
+
 \DeclareMathOperator{\csimeq}{\overset{c}{\simeq}}
 
 % Crypto
